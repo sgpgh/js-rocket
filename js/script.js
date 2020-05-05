@@ -1,10 +1,19 @@
 
+// VARIABLE DO COOL STUFF
+
+var doCoolStuff = function () {
+    var currentClassName = document.getElementById('cool').className;
+ if (currentClassName == 'cool') {
+    document.getElementById('cool').className = 'cool red';
+} else document.getElementById('cool').className = 'cool';
+}
+// VARIABLE SAY MY NAME
 
 var sayMyName = function (name) {
 alert('My Name is '+name)
 }
 
-//CAR Variable
+// VARIABLE CAR
 
 var car = {
     make: 'vw',
